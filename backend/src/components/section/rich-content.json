@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_section_rich_contents",
+  "info": {
+    "displayName": "rich-content"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "blocks"
+    }
+  },
+  "config": {}
+}

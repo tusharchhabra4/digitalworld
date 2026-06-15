@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_section_brand_showcases",
+  "info": {
+    "displayName": "brand-showcase"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "brands": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::brand.brand"
+    }
+  },
+  "config": {}
+}
